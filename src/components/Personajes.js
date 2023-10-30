@@ -30,7 +30,7 @@ export default class Personajes extends Component {
                 <NavLink className="btn btn-primary" to={"/serie/"+this.props.id}>Volver a detalle Serie</NavLink>
                 {
                     this.state.statusPersonajes && (
-                        <table class="table table table-success table-striped">
+                        <table className="table table table-success table-striped">
                             <thead>
                                 <tr>
                                     <th scope="col">Nombre</th>
